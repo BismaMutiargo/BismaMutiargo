@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background: url('HomePage.gif') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    animation: rotate 20s infinite linear;
+    width: 10%;  /* Adjust this value to resize the icons */
+    height: auto;
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#back { animation-delay: 0s; }
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
