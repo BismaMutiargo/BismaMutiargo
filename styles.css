@@ -229,7 +229,7 @@ body {
 }
 
 .timeline-content:hover {
-    background-color: yellow;
+    background-color: transparent;
 }
 
 .timeline-content {
@@ -244,7 +244,7 @@ body {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.4); /* yellow with 10% opacity */
+    background-color: rgba(255, 255, 255, 0.25); /* yellow with 10% opacity */
     z-index: 1;
     transition: width 0.5s;
     pointer-events: none; /* Allow text selection */
@@ -310,7 +310,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffff00;
+  background-color: #ffffff;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease-in-out;
@@ -438,3 +438,8 @@ body {
       width: 100%; /* Example: Change the width */
   }
 }
+
+
+
+
+
