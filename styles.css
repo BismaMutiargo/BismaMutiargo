@@ -265,7 +265,7 @@ body {
   z-index: 2;
   text-align: center;
   color: black;
-  top: 50%; /* Adjust this if necessary */
+  top: 40%; /* Adjust this if necessary */
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
