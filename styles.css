@@ -4,6 +4,11 @@ body, html {
     overflow: auto;
 }
 
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
 .bg-video {
   background-color: red;
   position: fixed;
@@ -74,19 +79,30 @@ body, html {
   font-size: 16px;
   cursor: pointer;
   position: relative;
-  background: transparent;
+  background-color: #555; /* Darker Background Color */
   color: #ffffff;
-  border: 2px solid #ffffff;
   transition: 0.3s all ease;
   overflow: hidden;
   text-shadow: 2px 2px 4px #000000;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* Box Shadow for 3D effect */
+  border-radius: 4px; /* Rounded corners */
 }
 
+
+
 .button:hover {
-  background: #ffffff;
+  background-color: #444; /* Darker Background Color on hover */
   color: #0000A0;
-  transition: 0.3s all ease;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); /* Darker Shadow on hover */
 }
+
+.button:active {
+  background-color: #333; /* Even Darker Background Color when active */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Smaller Shadow when active for pressed in effect */
+  transform: translate(2px, 2px); /* Slight shift when active for pressed in effect */
+}
+
+
 
 .button:after {
   content: '';
