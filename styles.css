@@ -139,7 +139,7 @@ body, html {
 
 .timeline-item {
   position: relative;
-  width: 10%; 
+  width: 5%; 
   display: flex;
   align-items: center;
   margin-bottom: -40px;
@@ -147,6 +147,8 @@ body, html {
   transform: translateX(-50px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
+
+
 
 .timeline-above {
   padding-bottom: 20px; /* Adjust this */
@@ -246,7 +248,7 @@ body, html {
   z-index: 2;
   text-align: center;
   color: black;
-  top: 40%; /* Adjust this if necessary */
+  top: 50%; /* Adjust this if necessary */
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -408,3 +410,13 @@ body, html {
 }
 
 
+@media screen and (max-width: 768px) {
+  .timeline-item {
+      /* Adjust styles for smaller screens here */
+      width: 100%; /* Example: Change the width */
+  }
+  .timeline-content {
+      /* Adjust styles for smaller screens here */
+      width: 100%; /* Example: Change the width */
+  }
+}
