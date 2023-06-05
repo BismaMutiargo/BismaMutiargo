@@ -270,6 +270,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   background-color: transparent;
+  font-size: calc(0.95em);
 }
 
 #explain-text {
